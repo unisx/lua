@@ -1,2 +1,0 @@
-# lua
-unofficial lua repository
