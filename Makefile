@@ -28,6 +28,8 @@ all clean:
 	-cd lua-5.2.2	 && $(MAKE) $@
 	-cd lua-5.2.3	 && $(MAKE) $@
 	-cd lua-5.3.0	 && $(MAKE) $@
+	-cd lua-5.3.1	 && $(MAKE) $@
+	-cd lua-5.3.2	 && $(MAKE) $@
 
 distr:	clean tar
 
