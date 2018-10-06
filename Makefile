@@ -33,6 +33,7 @@ all clean:
 	-cd lua-5.3.2	 && $(MAKE) $@
 	-cd lua-5.3.3	 && $(MAKE) $@
 	-cd lua-5.3.4	 && $(MAKE) $@
+	-cd lua-5.3.5	 && $(MAKE) $@
 
 distr:	clean tar
 
